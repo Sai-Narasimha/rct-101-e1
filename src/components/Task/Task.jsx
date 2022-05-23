@@ -43,7 +43,7 @@ const Task = () => {
        <div data-cy="task-text">{task.text}</div>
        {/* Counter here */}
        <Counter/>
-       <button data-cy="task-remove-button">Delete</button>
+       <button data-cy="task-remove-button"> Del</button>
      </li>
     ))}
      
